@@ -232,3 +232,8 @@ This code:
 * Detects secret-ish patterns in URL strings (and optionally response bodies).
 * Separates and saves **interesting file types** (flat + per-extension).
 * Writes clean per-domain and merged outputs for downstream tooling.
+
+
+
+
+Made by kHaleel ---> Nightmare neutron
