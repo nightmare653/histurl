@@ -1,0 +1,31 @@
+# Binaries
+histurl-linux-amd64
+histurl-windows-amd64.exe
+histurl.exe
+hiturl
+
+# Results
+results/
+output/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib

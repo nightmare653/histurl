@@ -1,0 +1,16 @@
+{
+  "domain": "example.com",
+  "domains_file": "",
+  "out": "out_urls",
+  "concurrency": 6,
+  "fetch_content": false,
+  "delay_ms": 200,
+  "user_agent": "ReconURLCollector/1.0 (+https://example)",
+  "output_format": "text",
+  "verbose": false,
+  "wa_timeout_sec": 120,
+  "wa_retries": 4,
+  "wa_limit": 10000,
+  "extract_creds": false,
+  "creds_out": ""
+}

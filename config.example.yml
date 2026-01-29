@@ -1,0 +1,35 @@
+# Example YAML configuration file for HistURL
+
+# Target domain or list
+domain: example.com
+# domains_file: domains.txt
+
+# Output directory
+out: out_urls
+
+# Concurrency for parallel collectors (1-128)
+concurrency: 6
+
+# Politeness delay in milliseconds
+delay_ms: 200
+
+# Fetch and scan page content (slower)
+fetch_content: false
+
+# HTTP User-Agent
+user_agent: ReconURLCollector/1.0 (+https://example)
+
+# Output format (text or json)
+output_format: text
+
+# Verbose output
+verbose: false
+
+# Web Archive CDX API settings
+wa_timeout_sec: 120
+wa_retries: 4
+wa_limit: 10000
+
+# Credential extraction
+extract_creds: false
+# creds_out: path/to/credentials_output
